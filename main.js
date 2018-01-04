@@ -1,44 +1,46 @@
-// // // // var array = [
-// // // // {
-// // // //     name: "Bob",
-// // // //     department: "sales",
-// // // //     title: "sales manager"
-// // // // }, {
-// // // //     name: "Tina",
-// // // //     department: "finance",
-// // // //     title: "director of finance"
-// // // // }, {
-// // // //     name: "Randy",
-// // // //     department: "IT",
-// // // //     title: "hardware guy"
-// // // // }, {
-// // // //     name: "Glenda", department: "C - suite",
-// // // //     title: "CEO"
-// // // // }
-// // // // ]
+// // // // // var array = [
+// // // // // {
+// // // // //     name: "Bob",
+// // // // //     department: "sales",
+// // // // //     title: "sales manager"
+// // // // // }, {
+// // // // //     name: "Tina",
+// // // // //     department: "finance",
+// // // // //     title: "director of finance"
+// // // // // }, {
+// // // // //     name: "Randy",
+// // // // //     department: "IT",
+// // // // //     title: "hardware guy"
+// // // // // }, {
+// // // // //     name: "Glenda", department: "C - suite",
+// // // // //     title: "CEO"
+// // // // // }
+// // // // // ]
 
 
-// // // // for (let i = 0; i < array.length; i++){
-// // // // console.log( array[i].name + "’s job title is " + array[i].title );
-// // // // }
+// // // // // for (let i = 0; i < array.length; i++){
+// // // // // console.log( array[i].name + "’s job title is " + array[i].title );
+// // // // // }
 
-// // // var car = {type:"Ford", model: "focus", year: "2012"};
+// // // // var car = {type:"Ford", model: "focus", year: "2012"};
 
-// // // var specificCar = car.type;
-// // // console.log();
+// // // // var specificCar = car.type;
+// // // // console.log();
 
-// // let ages = [12, 23, 89, 16, 34, 19, 2, 7, 45, 50, 26, 102]
+// let ages = [12, 23, 89, 16, 34, 19, 2, 7, 45, 50, 26, 102]
 
-// // copy = [];
+// copy = [];
 
-// // for (let i = 0; i < ages.length; i++) {
-// // if( ages < 50 && ages > 17)
-// // }
+// for (let i = 0; i < ages.length; i++) {
+// if( ages < 50 && ages > 17)
+// }
 
-// // ages.forEach((ages) => {
-// // copy.push(ages);
-// // console.log("hey");
-// // })
+
+
+// ages.forEach((ages) => {
+// copy.push(ages);
+// console.log("hey");
+// })
 // hitchhikers_guide = {
 //   characters: ["Zaphod", "Arthur", "Ford", "Trillian"],
 //   catchphrase: "Don't Panic",
@@ -54,14 +56,22 @@
 
 // console.log(hitchhikers_guide.random_facts.ultimate_answer.meaning_of_life, "hey");
 
-let yoda_quote = ["the", "greatest", "teacher,", "failure", "is"];
+// let yoda_quote = ["the", "greatest", "teacher,", "failure", "is"];
 
-var test = yoda_quote.join( " " );
-let test1 = test
+// var test = yoda_quote.join( " " );
+// let test1 = test
 
-console.log(test)
+// console.log(test)
 
+var nums = [1, 2, 3, 4, "5", 6, "7"];
 
+// expected result: [3, 5, 7, 9, 11, 13]
+var copyNums = [];
+
+for (let i = 0; i < nums.length-1; i++) {
+  copyNums.push(+nums[i] + +nums[i + 1]);
+
+}
 
 
 
